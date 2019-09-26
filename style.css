@@ -1,0 +1,71 @@
+html {
+    font-family:"Quicksand", sans-serif;
+}
+body{
+    margin:0;
+    background-color: bisque;
+}
+h1 {
+    background-color: rgb(94, 93, 93);
+    color:bisque;
+    text-align:center;
+    font-size:3.5rem;
+    padding:0.7rem;
+  }
+  h2 {
+    background-color: rgb(94, 93, 93);
+    color:bisque;
+    text-align:center;
+    font-size:2.5rem;
+}
+p {
+  color:bisque; 
+  line-height:1.5rem;
+  padding:1rem;
+  text-align: center;
+}
+a{
+ color:rgb(202, 20, 120);
+ font-weight: bold;
+}
+a:hover{
+ color:springgreen;
+ text-decoration: none;
+ font-weight: bold;
+}
+a:visited{
+ color:rgb(88, 3, 88);
+ font-weight:bold;
+}
+img{
+    width:200px;
+}
+.foreground{
+    background-color: rgb(94, 93, 93);
+    max-width:1200px;
+    padding:0.7rem;
+    margin:auto;
+}
+.photo{
+    border: 5px solid;
+    border-color: rgb(202, 20, 120);
+    }
+.photo:hover{
+    border: 5px solid;
+    border-color: springgreen;
+}
+.patka{
+    max-width:1200px;
+    padding:0.7rem;
+    margin: auto;
+    font-size:10pt;
+    font-weight: bold;
+}
+.popis{
+    background-color: bisque;
+    color:rgb(94, 93, 93);
+}
+.pic{
+    width: 200px;
+    margin:auto;
+}
