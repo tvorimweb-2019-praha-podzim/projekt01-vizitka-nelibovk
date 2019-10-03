@@ -1,71 +1,126 @@
 html {
-    font-family:"Quicksand", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
-body{
-    margin:0;
+
+body {
+    margin: 0;
     background-color: bisque;
 }
+
 h1 {
-    background-color: rgb(94, 93, 93);
-    color:bisque;
-    text-align:center;
-    font-size:3.5rem;
-    padding:0.7rem;
-  }
-  h2 {
-    background-color: rgb(94, 93, 93);
-    color:bisque;
-    text-align:center;
-    font-size:2.5rem;
+    color: rgb(48, 24, 48);
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 0.7rem;
 }
+
+h2 {
+    color: rgb(48, 24, 48);
+    text-align: center;
+    font-size: 2.5rem;
+}
+
 p {
-  color:bisque; 
-  line-height:1.5rem;
-  padding:1rem;
-  text-align: center;
+    color: bisque;
+    line-height: 1.5rem;
+    padding: 1rem;
+    text-align: center;
 }
-a{
- color:rgb(202, 20, 120);
- font-weight: bold;
-}
-a:hover{
- color:springgreen;
- text-decoration: none;
- font-weight: bold;
-}
-a:visited{
- color:rgb(88, 3, 88);
- font-weight:bold;
-}
-img{
-    width:200px;
-}
-.foreground{
-    background-color: rgb(94, 93, 93);
-    max-width:1200px;
-    padding:0.7rem;
-    margin:auto;
-}
-.photo{
-    border: 5px solid;
-    border-color: rgb(202, 20, 120);
-    }
-.photo:hover{
-    border: 5px solid;
-    border-color: springgreen;
-}
-.patka{
-    max-width:1200px;
-    padding:0.7rem;
-    margin: auto;
-    font-size:10pt;
+
+a {
+    color: rgb(202, 20, 120);
     font-weight: bold;
 }
-.popis{
-    background-color: bisque;
-    color:rgb(94, 93, 93);
+
+a:hover {
+    color: rgb(251, 255, 0);
+    text-decoration: none;
+    font-weight: bold;
 }
-.pic{
-    width: 200px;
-    margin:auto;
+
+a:visited {
+    color: rgb(3, 88, 38);
+    font-weight: bold;
+}
+
+img {
+    width: 120px;
+}
+
+.foreground {
+    background-color: rgb(48, 24, 48);
+    max-width: 1200px;
+    padding: 0.7rem;
+    margin: auto;
+}
+
+.patka {
+    max-width: 1200px;
+    padding: 0.7rem;
+    margin: auto;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.popis {
+    color: rgb(94, 93, 93);
+}
+
+.pic {
+    width: 120px;
+    margin: auto;
+}
+
+.header {
+    border: 1px solid white;
+    border-radius: 290486px;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    width: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color;
+}
+
+header {
+    background-image: url(chris-abney-qLW70Aoo8BE-unsplash.jpg);
+    background-color: #263d36;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 0.5;
+    padding: 5em;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+}
+
+.vizitka {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 290486px
+}
+
+li {
+    list-style-type: none;
+    color: bisque;
+    display: inline;
+    margin: 0 10%;
+    font-size: 3vh;
+}
+
+nav {
+    background-color: rgb(48, 24, 48);
+}
+
+.navigation {
+    text-decoration: none;
+    padding: 0 40px;
 }
