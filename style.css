@@ -91,29 +91,28 @@ header {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    line-height: 0.5;
+    line-height: 0.5rem;
     padding: 5em;
     text-align: center;
 }
 
 header img {
     display: inline-block;
-    width: 250px;
+    width: 10%;
     vertical-align: top;
 }
 
 .vizitka {
     background-color: white;
     border: 1px solid white;
-    border-radius: 290486px
-}
+  }
 
 li {
     list-style-type: none;
     color: bisque;
     display: inline;
     margin: 0 10%;
-    font-size: 3vh;
+    font-size: 1.5em;
 }
 
 nav {
